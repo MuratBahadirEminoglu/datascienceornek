@@ -29,4 +29,3 @@ value=np.array([[tv_input,radio_input,gazete_input]])
 predict_value=lr.predict(value)
 
 st.write("verilen değerlerin tahmini ",predict_value)
-# %%
